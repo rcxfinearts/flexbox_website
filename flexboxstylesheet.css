@@ -59,19 +59,19 @@ footer {
   /* video element media breakpoints */
 @media (max-width: 576px) {
   .video-container {
-    width: 400px;
+    width: 570px;
   }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
   .video-container {
-    width: 500px;
+    width: 766px;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .video-container {
-    width: 700px;
+    width: 1023px;
   }
 }
 
