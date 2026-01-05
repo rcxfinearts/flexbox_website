@@ -39,6 +39,7 @@ h4 {
 
 video {
   display: block;
+  max-width: 1200px;
 }
 
 footer {
