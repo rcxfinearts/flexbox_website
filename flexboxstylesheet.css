@@ -37,7 +37,7 @@ h4 {
 	justify-content: center;
 }
 
-video {
+.video-container video {
   width: 100%;
   height: auto; /* Height is calculated automatically */
   aspect-ratio: 16 / 9; /* Maintains a 16:9 aspect ratio */
