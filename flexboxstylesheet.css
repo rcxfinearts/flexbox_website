@@ -37,7 +37,8 @@ h4 {
 	justify-content: center;
 }
 
-video { /* Video takes full width of its parent container */
+video {
+  width: 100%;
   height: auto; /* Height is calculated automatically */
   aspect-ratio: 16 / 9; /* Maintains a 16:9 aspect ratio */
   display: block; /* Ensures no extra spacing if it's an inline element */
@@ -54,30 +55,37 @@ footer {
     flex: 100%;
   }
 
+
+  /* video element media breakpoints */
 @media (max-width: 576px) {
-  video {
-    width: 350px;* Adjust aspect ratio for smaller screens */
+  .video-container {
+    width: 350px;
   }
 }
 
-@media (min-width: 577px) {
-  video {
-    width: 500px;/* Adjust aspect ratio for smaller screens */
+@media (min-width: 577px) and (max-width: 768px) {
+  .video-container {
+    width: 500px;
   }
 }
 
-@media (min-width: 769px)
-  video {
-    width: 700px; /* Standard 16:9 aspect ratio for larger screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .video-container {
+    width: 700px;
   }
+}
 
-@media (min-width: 1025px)
-  video {
-    width: 100%; /* Standard 16:9 aspect ratio for larger screens */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .video-container {
+    width: 100%;
   }
+}
 
-@media (min-width: 1441px)
-  video {
-    width: 100%; /* Standard 16:9 aspect ratio for larger screens */
+@media (min-width: 1441px) {
+  .video-container {
+    width: 110%;
   }
+}
+  /* video element media breakpoints end */
+
 }
