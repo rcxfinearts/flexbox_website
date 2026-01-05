@@ -59,7 +59,7 @@ footer {
   /* video element media breakpoints */
 @media (max-width: 576px) {
   .video-container {
-    width: 350px;
+    width: 400px;
   }
 }
 
