@@ -60,11 +60,11 @@ footer {
 
 @media (max-width: 800px) {
   .video-container {
-    width: 795px;
+    width: 798px;
   }
 }
 
-@media (min-width: 901px) and (max-width: 1024px) {
+@media (min-width: 801px) and (max-width: 1024px) {
   .video-container {
     width: 1023px;
   }
