@@ -37,9 +37,13 @@ h4 {
 	justify-content: center;
 }
 
-video {
-  display: block;
-  max-width: 1200px;
+video { /* Video takes full width of its parent container */
+  height: auto; /* Height is calculated automatically */
+  aspect-ratio: 16 / 9; /* Maintains a 16:9 aspect ratio */
+  display: block; /* Ensures no extra spacing if it's an inline element */
+  margin: 0; /* Removes any default margin */
+  padding: 0; /* Removes any default padding */ /* Prevents video from scaling larger than its original size if desired */
+  box-sizing: border-box; /* Ensures padding/border doesn't add to the width */
 }
 
 footer {
@@ -50,14 +54,30 @@ footer {
     flex: 100%;
   }
 
-  @media (max-width: 768px) {
+@media (max-width: 576px) {
   video {
-    padding-bottom: 75%; /* Adjust aspect ratio for smaller screens */
+    width: 350px;* Adjust aspect ratio for smaller screens */
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 577px) {
   video {
-    padding-bottom: 56.25%; /* Standard 16:9 aspect ratio for larger screens */
+    width: 500px;/* Adjust aspect ratio for smaller screens */
+  }
+}
+
+@media (min-width: 769px)
+  video {
+    width: 700px; /* Standard 16:9 aspect ratio for larger screens */
+  }
+
+@media (min-width: 1025px)
+  video {
+    width: 100%; /* Standard 16:9 aspect ratio for larger screens */
+  }
+
+@media (min-width: 1441px)
+  video {
+    width: 100%; /* Standard 16:9 aspect ratio for larger screens */
   }
 }
