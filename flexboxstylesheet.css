@@ -26,7 +26,8 @@ h3 {
 /* start flex containers
 
 .flex-container {
-  display: flex;
+  display: inline-flex;
+  flex-direction: row;
   width: 100vw;
   justify-content: space-evenly;
   flex-wrap: no-wrap;
