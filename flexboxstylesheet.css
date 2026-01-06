@@ -32,6 +32,10 @@ h3 {
   flex-wrap: no-wrap;
 }
 
+.flex-container .box {
+  flex: 0 0 33%;
+}
+  
 .flex-container .box img {
   flex: 0 0 33%; 
   padding: 20px;
