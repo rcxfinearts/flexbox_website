@@ -22,13 +22,6 @@ h3 {
   text-align: center;
 }
 
-h4 {
-	text-align: center;
-	padding-top: 5px;
-	padding-top: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-}
 
 /* start flex containers
 
@@ -37,11 +30,32 @@ h4 {
   width: 100vw;
   justify-content: space-evenly;
   flex-wrap: no-wrap;
-  flex: 0 0 33%;
-  text-align: center
 }
 
-end flex containers */
+
+.box img h4 {
+  /* This is the recommended shorthand property */
+  flex: 0 0 50%; 
+  
+  /* Which is equivalent to: */
+  /* flex-grow: 0; */
+  /* flex-shrink: 0; */
+  /* flex-basis: 50%; */
+  
+  /* Add some styling for visibility */
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* On screens smaller than 600px, make items take the full width */
+@media (max-width: 600px) {
+  .flex-item {
+    flex: 100%; /* Shorthand for flex: 1 1 100%; */
+  }
+}
+
+/* end flex containers */
 
 .video-container video {
   width: 100%;
