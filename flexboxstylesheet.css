@@ -25,7 +25,7 @@ h3 {
 
 /* start flex containers
 
-.flex-container {
+div.flex-container {
   display: flex;
   flex-direction: row;
   width: 100vw;
@@ -33,21 +33,12 @@ h3 {
   flex-wrap: no-wrap;
 }
 
-.box {
+div.box {
   flex: 0 0 20%;
   flex basis: 250px;
   box-sizing: border-box;
   align-items: center;
 }
-
-img {
-  padding: 20px;
-}
-
-h4 { 
-  padding: 5px;
-}
-
 
 /* On screens smaller than 600px, make items take the full width */
 @media (max-width: 600px) {
