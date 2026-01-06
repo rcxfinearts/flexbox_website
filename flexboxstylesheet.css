@@ -28,7 +28,7 @@ h3 {
 div.flex-container {
   display: flex;
   flex-direction: row;
-  width: 100vw;
+  width: 75vw;
   justify-content: space-evenly;
   flex-wrap: no-wrap;
 }
