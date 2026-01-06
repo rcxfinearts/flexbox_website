@@ -34,7 +34,7 @@ div.flex-container {
 }
 
 div.box {
-  display: flex;
+  flex: 0 0 25%;
   flex-basis: fit-content;
   box-sizing: border-box;
   align-items: center;
@@ -43,7 +43,7 @@ div.box {
 div.box img {
   display: block;
   width: 25%;
-  align-content: center;
+  padding: 5px;
 }
 
 div.box h4 {
