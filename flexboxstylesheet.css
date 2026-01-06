@@ -30,7 +30,7 @@ h4 {
 	padding-right: 5px;
 }
 
-/* start flex containers */
+/* start flex containers
 
 .item-wrapper .box {
     vertical-align: top;
@@ -46,7 +46,7 @@ h4 {
     width: fit-content;
 }
 
-/* end flex containers */
+end flex containers */
 
 .video-container video {
   width: 100%;
