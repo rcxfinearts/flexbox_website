@@ -34,8 +34,11 @@ h4 {
 
 .flex-container {
   display: flex;
+  width: 100vw;
   justify-content: space-evenly;
   flex-wrap: no-wrap;
+  flex: 0 0 33%;
+  text-align: center
 }
 
 end flex containers */
