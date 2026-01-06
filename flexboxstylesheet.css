@@ -43,6 +43,7 @@ h3 {
 img {
   display: flex;
   height: auto;
+  width: fit-content;
   margin-bottom: 5px;
 }
 
