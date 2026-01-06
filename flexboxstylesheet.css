@@ -33,18 +33,17 @@ h3 {
 }
 
 .flex-container .box {
-  flex: 0 0 33%;
+  flex: 0 0 25%;
 }
-  
+
 .flex-container .box img {
-  flex: 0 0 33%; 
   padding: 20px;
 }
 
-.flex-container .box h4 {
-  flex: 0 0 33%; 
+.flex-container .box h4 { 
   padding: 5px;
   text-align: center;
+  font-size: 12px;
 }
 
 
