@@ -40,6 +40,14 @@ div.box {
   align-items: center;
 }
 
+div.box img {
+  align-item: center;
+}
+
+div.box h4 {
+  align-item: center;
+}
+
 /* On screens smaller than 600px, make items take the full width */
 @media (max-width: 600px) {
   .flex-container .box {
@@ -61,6 +69,10 @@ div.box {
   margin: 0; /* Removes any default margin */
   padding: 0; /* Removes any default padding */ /* Prevents video from scaling larger than its original size if desired */
   box-sizing: border-box; /* Ensures padding/border doesn't add to the width */
+}
+
+.video-container h4 {
+  text-align: center;
 }
 
 footer {
