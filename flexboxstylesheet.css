@@ -4,7 +4,7 @@
   font-style: normal;
 } 
 
-#icon {
+img #icon {
   display: center;
 }
 
@@ -42,8 +42,8 @@ h3 {
 }
 
 img {
-  display: flex;
-  height: 100%;
+  display: block;
+  height: auto;
   width: 100%;
   margin-bottom: 5px;
   object-fit: contain;
