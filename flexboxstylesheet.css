@@ -32,11 +32,14 @@ h3 {
   flex-wrap: no-wrap;
 }
 
-
-.box img h4 {
+.flex-container .box img {
   flex: 0 0 33%; 
   padding: 20px;
-  border: 1px solid black;
+}
+
+.flex-container .box h4 {
+  flex: 0 0 33%; 
+  padding: 5px;
   text-align: center;
 }
 
