@@ -34,10 +34,11 @@ div.flex-container {
 }
 
 div.box {
-  flex: 0 0 20%;
+  flex: 0 0 25%;
   flex-basis: fit-content;
   box-sizing: border-box;
   align-items: center;
+  align-self: center;
 }
 
 div.box img {
