@@ -35,7 +35,7 @@ h3 {
 .box {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   text-align: center;
   flex: 1;
   max-width: 600px;
