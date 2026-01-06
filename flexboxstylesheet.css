@@ -45,7 +45,7 @@ div.box img {
 }
 
 div.box h4 {
-  align-item: center;
+  text-align: center;
 }
 
 /* On screens smaller than 600px, make items take the full width 
