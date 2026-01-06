@@ -38,13 +38,15 @@ h3 {
   align-items: center;
   text-align: center;
   flex: 1;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 img {
   display: flex;
-  height: auto;
+  height: 100%;
+  width: 100%;
   margin-bottom: 5px;
+  object-fit: contain;
 }
 
 /* On screens smaller than 600px, make items take the full width 
