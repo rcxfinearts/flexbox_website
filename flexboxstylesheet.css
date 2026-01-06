@@ -34,15 +34,16 @@ h4 {
 
 .item-wrapper .box {
     vertical-align: top;
-    display: inline-flex;
-    justify-content : center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .item-wrapper > img, h4 {
     margin: auto;
     display: block;
     justify-content: center;
-    width:fit-content
+    width: fit-content;
 }
 
 /* end flex containers */
