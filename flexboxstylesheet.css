@@ -25,30 +25,29 @@ h3 {
 
 /* start flex containers */
 
-div.flex-container {
+.flex-container {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: no-wrap;
 }
 
-div.box {
-  flex: 0 0 25%;
-  flex-basis: fit-content;
-  box-sizing: border-box;
+.box {
+  display: flex;
+ flex-direction: column;
   align-items: center;
-}
-
-div.box img {
-  display: block;
-  width: 25%;
-  padding: 5px;
-}
-
-div.box h4 {
   text-align: center;
-  width: 25%;
+  flex: 1;
+  max-width: 300px;
+}
+
+img {
+  display: flex;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+h4 {
+  text-align: center;
 }
 
 /* On screens smaller than 600px, make items take the full width 
