@@ -31,30 +31,17 @@ h4 {
 }
 
 /* start flex containers */
-.flex-container {
-  display: flex; /* Sets the outer container to use flexbox */
-  justify-content: center; /* Centers the item-wrappers horizontally */
-  gap: 25px; /* Adds space between the items */
-  width: 100%;
+
+.item-wrapper .box {
+    width: auto;
+    vertical-align: top;
+    display: inline-flex;
+    justify-content : center;
 }
 
-.item-wrapper {
-  display: flex;
-  flex-direction: column; /* Stacks the content vertically (image above text) */
-  align-items: center; /* Centers the box and text horizontally within the wrapper */
-}
-
-/* Optional: styles for the image placeholder and text */
-.box {
-  height: 100px;
-  width: 100px;
-  background-color: lightblue;
-  border: 1px solid black;
-}
-
-.item-text {
-  text-align: center; /* Ensures the text itself is centered if it spans multiple lines */
-  margin-top: 5px; /* Adds a small gap between the box and the text */
+.item-wrapper > img, h4 {
+    margin: auto;
+    display: block;
 }
 /* end flex containers */
 
