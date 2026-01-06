@@ -23,7 +23,7 @@ h3 {
 }
 
 
-/* start flex containers
+/* start flex containers */
 
 div.flex-container {
   display: flex;
@@ -48,7 +48,7 @@ div.box h4 {
   align-item: center;
 }
 
-/* On screens smaller than 600px, make items take the full width */
+/* On screens smaller than 600px, make items take the full width 
 @media (max-width: 600px) {
   .flex-container .box {
     font-size: 12px;
@@ -58,9 +58,11 @@ div.box h4 {
     flex: 0 0 20%;
   }
 }
+  */
 
 /* end flex containers */
 
+/* start video element */
 .video-container video {
   width: 100%;
   height: auto; /* Height is calculated automatically */
@@ -74,6 +76,8 @@ div.box h4 {
 .video-container h4 {
   text-align: center;
 }
+
+/* end video element */
 
 footer {
   text-align: right;
