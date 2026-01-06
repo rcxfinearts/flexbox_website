@@ -31,11 +31,8 @@ h4 {
 }
 
 /* start flex containers */
-.flex-container .item-wrapper {
-  width: 33%;
-}
+
 .item-wrapper .box {
-    width: auto;
     vertical-align: top;
     display: inline-flex;
     justify-content : center;
