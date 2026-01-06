@@ -5,7 +5,9 @@
 } 
 
 img #icon {
-  display: center;
+  display: block;
+  width: 200px;
+  height: auto;
 }
 
 h1 {
@@ -48,18 +50,6 @@ img {
   margin-bottom: 5px;
   object-fit: contain;
 }
-
-/* On screens smaller than 600px, make items take the full width 
-@media (max-width: 600px) {
-  .flex-container .box {
-    font-size: 12px;
-    width: 100vw;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex: 0 0 20%;
-  }
-}
-  */
 
 /* end flex containers */
 
