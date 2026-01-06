@@ -42,12 +42,13 @@ div.box {
 
 div.box img {
   display: block;
-  width: 100%;
+  width: 25%;
   padding: 5px;
 }
 
 div.box h4 {
   text-align: center;
+  width: 25%;
 }
 
 /* On screens smaller than 600px, make items take the full width 
